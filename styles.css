@@ -34,7 +34,7 @@
 }
 
 .section__description {
-  max-width: 600px;
+  max-width: 500px;
   margin-inline: auto;
   color: var(--extra-light);
   text-align: center;
@@ -188,7 +188,7 @@ nav {
 
 .header__image::after {
   position: absolute;
-  content: "MICHAEL";
+  content: "NASIBU";
   letter-spacing: 1.5rem;
   opacity: 0.5;
   right: 1rem;
@@ -427,8 +427,8 @@ nav {
   }
 
   .header__content h1 {
-    font-size: 6rem;
-    line-height: 6rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     text-align: left;
   }
 
@@ -452,8 +452,8 @@ nav {
   }
 
   .portfolio__container :is(.section__header, .section__description) {
-    text-align: left;
-    margin-inline-start: unset;
+    text-align: center;
+    margin-inline-start: auto;
   }
 
   .portfolio__grid {
@@ -463,4 +463,25 @@ nav {
   .portfolio__banner {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+.header__titles {
+  text-align: left;
+  margin-bottom: 3rem;
+  max-width: 600px;
+}
+
+.main-title {
+  font-size: 7rem;
+  font-weight: 1000;
+  color: #ef6d16;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.sub-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #e48622;
+  line-height: 4;
 }
